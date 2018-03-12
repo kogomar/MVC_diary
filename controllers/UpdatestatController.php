@@ -1,0 +1,1 @@
+<?phpinclude_once ROOT. '/models/UpdateStat.php';class UpdatestatController{    public function actionUpdatestst()    {        require_once(ROOT . '/views/task.php');    }}

@@ -1,0 +1,1 @@
+<?phpsession_start();class LogoutController{public function actionLogout(){session_destroy();echo "Goodbye!";}}?><script>    setTimeout( 'location="http://diary:88/login";', 1000 );</script>

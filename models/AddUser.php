@@ -1,0 +1,1 @@
+<?phpclass AddUser{    public static function getUser()    {        $db = Db::getConnection();        if(!empty($_POST['user'])){        $user = $_POST['user'];        $task_id2= $_POST['tid2'];        $db->query("UPDATE task SET `user`='$user' WHERE `id` = '$task_id2'");        }    }}

@@ -1,0 +1,104 @@
+.header{
+    height: 40px;
+    background-color: #3A3736;
+    font-size: 16px;
+    color: bisque;
+    }
+.nav ul{
+    width: 90%;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px 20px 0 50px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.login{
+
+    margin: 50px 40%;
+}
+.log{
+
+}
+.login input{
+    width:325px;
+}
+.login button{
+    margin-left: 120px;
+}
+.post {
+    border: 1px solid #7d7d7d;
+    padding: 10px;
+
+}
+.tasks{
+    width: 750px;
+    /*margin-left: 25%;*/
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+ }
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+}
+
+
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    overflow: scroll;
+    width:600px;
+    height:450px;
+}
+#boxes #dialog {
+    width:580px;
+    height:430px;
+    padding:10px;
+    background-color:#ffffff;
+}
+#boxes input{
+    width: 320px;
+}
+#boxes textarea{
+    width: 250px;
+}
+.ntsk{
+    width: 130px;
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    background-color: #1c69d6;
+}
+.ntsk:hover{
+    background-color: #1798d6;
+}
+.user{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.tdate{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.status{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
